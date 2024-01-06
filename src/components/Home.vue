@@ -35,8 +35,8 @@
 			<v-card-title>Supported languages</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/Languages.jpg')">
-						<img width="100%" eager src="/images/Languages.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/Languages.jpg')">
+						<img width="100%" eager src="images/Languages.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				LinguaCafe currently supports 4 languages: <b>German</b>, <b>Japanese</b>, <b>Norwegian</b> and <b>Spanish</b>.
@@ -53,14 +53,14 @@
 			<v-card-title>Library</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/LibraryCover.jpg')">
-						<img width="100%" eager src="/images/LibraryCover.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/LibraryCover.jpg')">
+						<img width="100%" eager src="images/LibraryCover.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/LibraryDetailed.jpg')">
-						<img width="100%" eager src="/images/LibraryDetailed.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/LibraryDetailed.jpg')">
+						<img width="100%" eager src="images/LibraryDetailed.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/LibraryChapters.jpg')">
-						<img width="100%" eager src="/images/LibraryChapters.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/LibraryChapters.jpg')">
+						<img width="100%" eager src="images/LibraryChapters.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				
@@ -79,11 +79,11 @@
 			<v-card-title>Importing text</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/NewChapter.jpg')">
-						<img width="100%" eager src="/images/NewChapter.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/NewChapter.jpg')">
+						<img width="100%" eager src="images/NewChapter.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/Import.jpg')">
-						<img width="100%" eager src="/images/Import.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/Import.jpg')">
+						<img width="100%" eager src="images/Import.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 
@@ -99,17 +99,17 @@
 			<v-card-title>Reading</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/TextReader.jpg')">
-						<img width="100%" eager src="/images/TextReader.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReader.jpg')">
+						<img width="100%" eager src="images/TextReader.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/TextReaderVocabularyBox.jpg')">
-						<img width="100%" eager src="/images/TextReaderVocabularyBox.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReaderVocabularyBox.jpg')">
+						<img width="100%" eager src="images/TextReaderVocabularyBox.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/TextReaderVocabularyBoxEdit.jpg')">
-						<img width="100%" eager src="/images/TextReaderVocabularyBoxEdit.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReaderVocabularyBoxEdit.jpg')">
+						<img width="100%" eager src="images/TextReaderVocabularyBoxEdit.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/TextReaderSettings.jpg')">
-						<img width="100%" eager src="/images/TextReaderSettings.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReaderSettings.jpg')">
+						<img width="100%" eager src="images/TextReaderSettings.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				When you first start reading, all your words will be yellow, which represents <span class="new">new words</span> that you haven't seen before. 
@@ -127,11 +127,11 @@
 			<v-card-title>Review</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/ReviewFrontCard.jpg')">
-						<img width="100%" eager src="/images/ReviewFrontCard.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/ReviewFrontCard.jpg')">
+						<img width="100%" eager src="images/ReviewFrontCard.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/ReviewBackCard.jpg')">
-						<img width="100%" eager src="/images/ReviewBackCard.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/ReviewBackCard.jpg')">
+						<img width="100%" eager src="images/ReviewBackCard.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				After reading your texts and creating <span class="highlighted">highlighted words and phrases</span>, you can review them on the <b>Review page</b>.
@@ -150,11 +150,11 @@
 			<v-card-title>Goal tracking</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/GoalTracking.jpg')">
-						<img width="100%" eager src="/images/GoalTracking.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/GoalTracking.jpg')">
+						<img width="100%" eager src="images/GoalTracking.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/Statistics.jpg')">
-						<img width="100%" eager src="/images/Statistics.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/Statistics.jpg')">
+						<img width="100%" eager src="images/Statistics.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 
@@ -170,14 +170,14 @@
 			<v-card-text>
 				You can search, edit and export your words on the <b>Vocabulary</b> page.
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/VocabularySearch.jpg')">
-						<img width="100%" eager src="/images/VocabularySearch.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/VocabularySearch.jpg')">
+						<img width="100%" eager src="images/VocabularySearch.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/VocabularyEdit.jpg')">
-						<img width="100%" eager src="/images/VocabularyEdit.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/VocabularyEdit.jpg')">
+						<img width="100%" eager src="images/VocabularyEdit.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/VocabularyExport.jpg')">
-						<img width="100%" eager src="/images/VocabularyExport.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/VocabularyExport.jpg')">
+						<img width="100%" eager src="images/VocabularyExport.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 			</v-card-text>
@@ -187,11 +187,11 @@
 			<v-card-title>Dictionaries</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/DictionaryList.jpg')">
-						<img width="100%" eager src="/images/DictionaryList.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/DictionaryList.jpg')">
+						<img width="100%" eager src="images/DictionaryList.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/DictionaryImport.jpg')">
-						<img width="100%" eager src="/images/DictionaryImport.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/DictionaryImport.jpg')">
+						<img width="100%" eager src="images/DictionaryImport.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				LinguaCafe comes with no dictionary files by default, but you can download and import them from different sources. 
@@ -207,11 +207,11 @@
 			<v-card-title>Kanji and radicals</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/KanjiList.jpg')">
-						<img width="100%" eager src="/images/KanjiList.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/KanjiList.jpg')">
+						<img width="100%" eager src="images/KanjiList.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/KanjiDetails.jpg')">
-						<img width="100%" eager src="/images/KanjiDetails.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/KanjiDetails.jpg')">
+						<img width="100%" eager src="images/KanjiDetails.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				You can view information about the kanji you know, if you import JMDict files.
@@ -222,11 +222,11 @@
 			<v-card-title>Jellyfin</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/MediaPlayerList.jpg')">
-						<img width="100%" eager src="/images/MediaPlayerList.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/MediaPlayerList.jpg')">
+						<img width="100%" eager src="images/MediaPlayerList.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/MediaPlayerReader.jpg')">
-						<img width="100%" eager src="/images/MediaPlayerReader.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/MediaPlayerReader.jpg')">
+						<img width="100%" eager src="images/MediaPlayerReader.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				This is a very niche feature, but if it's set up properly, it allows the user to sit down in front of their TV, 
@@ -247,11 +247,11 @@
 			<v-card-title>Anki</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/MediaPlayerList.jpg')">
-						<img width="100%" eager src="/images/MediaPlayerList.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/MediaPlayerList.jpg')">
+						<img width="100%" eager src="images/MediaPlayerList.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/MediaPlayerReader.jpg')">
-						<img width="100%" eager src="/images/MediaPlayerReader.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/MediaPlayerReader.jpg')">
+						<img width="100%" eager src="images/MediaPlayerReader.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 				Jellyfin comes with built-in Anki support. It can send your <span class="highlighted">highlighted words</span> to Anki
@@ -264,14 +264,14 @@
 			<v-card-title>Theming and customization</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('/images/ThemeDark.jpg')">
-						<img width="100%" eager src="/images/ThemeDark.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/ThemeDark.jpg')">
+						<img width="100%" eager src="images/ThemeDark.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/ThemeLight.jpg')">
-						<img width="100%" eager src="/images/ThemeLight.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/ThemeLight.jpg')">
+						<img width="100%" eager src="images/ThemeLight.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('/images/ThemeEink.jpg')">
-						<img width="100%" eager src="/images/ThemeEink.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/ThemeEink.jpg')">
+						<img width="100%" eager src="images/ThemeEink.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
 
