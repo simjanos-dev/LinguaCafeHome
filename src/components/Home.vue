@@ -247,14 +247,14 @@
 			<v-card-title>Anki</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('images/MediaPlayerList.jpg')">
-						<img width="100%" eager src="images/MediaPlayerList.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/AnkiHome.jpg')">
+						<img width="100%" eager src="images/AnkiHome.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/MediaPlayerReader.jpg')">
-						<img width="100%" eager src="images/MediaPlayerReader.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/AnkiReview.jpg')">
+						<img width="100%" eager src="images/AnkiReview.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
-				Jellyfin comes with built-in Anki support. It can send your <span class="highlighted">highlighted words</span> to Anki
+				LinguaCafe comes with built-in Anki support. It can send your <span class="highlighted">highlighted words</span> to Anki
 				automatically when you highlight them, or you can send them manually. You can find more information about setting it up 
 				on the github page.
 			</v-card-text>
