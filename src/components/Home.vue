@@ -44,7 +44,7 @@
 				and <b>Norwegian</b>. Unfortunately I do not speak <b>German</b> and <b>Spanish</b>, and I couldn't 
 				provide language specific fixes for these languages before community feedback.<br><br>
 				
-				It is quite easy to add further languages to LinguaCafe, but I've decide for these to start with, 
+				It is quite easy to add further languages to LinguaCafe, but I've decided for these to start with, 
 				so i can focus on stability of LinguaCafe's first release. I will add more languages in the future.
 			</v-card-text>
 		</v-card>
@@ -214,7 +214,7 @@
 						<img width="100%" eager src="images/KanjiDetails.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
-				You can view information about the kanji you know, if you import JMDict files.
+				You can view information about the kanji you know.
 			</v-card-text>
 		</v-card>
 
@@ -354,11 +354,11 @@
 						Browser plugin that allows you to use any text inside the browser.
 					</li>
 					<li>
-						Importing text from all sources: youtube captions.
+						Importing text from all sources: youtube captions, subtitle files, manga files, mpv player and others.
 					</li>
 					<li>
 						A page where you can create sheets to practice Japanese writing 
-						either on touch devices, or by printing out the sheets.
+						either on touch devices, or by printing out the sheets on paper.
 					</li>
 				</ul><br>
 
