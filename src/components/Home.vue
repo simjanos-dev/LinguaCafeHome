@@ -17,7 +17,10 @@
 
 				I developed LinguaCafe mainly for personal use, because I found the alternative platforms too expensive or lacking in features I wanted. 
 				<br><br>After years of developement and reading other language learners' opinions about similar platforms, i realised that it might also be a useful
-				tool for other learners, so I have started adding more features to grow LinguaCafe into a platform that more people can benefit from.
+				tool for other learners, so I have started adding more features to grow LinguaCafe into a platform that more people can benefit from.<br><br>
+				
+				You can download it from here:<br>
+				<v-icon class="mr-2">mdi-github</v-icon><a href="https://github.com/simjanos-dev/LinguaCafe">Github</a>
 			</v-card-text>
 		</v-card>
 
