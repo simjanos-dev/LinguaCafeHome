@@ -19,6 +19,8 @@
 				<br><br>After years of developement and reading other language learners' opinions about similar platforms, i realised that it might also be a useful
 				tool for other learners, so I have started adding more features to grow LinguaCafe into a platform that more people can benefit from.<br><br>
 				
+				This overview was written for v0.7, it is possible that some improvements have been made since.<br><br>
+
 				You can download it from here:<br>
 				<v-icon class="mr-2">mdi-github</v-icon><a href="https://github.com/simjanos-dev/LinguaCafe">Github</a>
 			</v-card-text>
@@ -42,13 +44,10 @@
 						<img width="100%" eager src="images/Languages.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
-				LinguaCafe currently supports 4 languages: <b>German</b>, <b>Japanese</b>, <b>Norwegian</b> and <b>Spanish</b>.
-				I provide dictionary sources for these languages, and I've personally tested <b>Japanese</b> 
-				and <b>Norwegian</b>. Unfortunately I do not speak <b>German</b> and <b>Spanish</b>, and I couldn't 
-				provide language specific fixes for these languages before community feedback.<br><br>
+				LinguaCafe currently supports 15 languages. You can see a more detailed list of 
+				supported features for each language on the github page. <br><br>
 				
-				It is quite easy to add further languages to LinguaCafe, but I've decided for these to start with, 
-				so i can focus on stability of LinguaCafe's first release. I will add more languages in the future.
+				More languages will be added soon.
 			</v-card-text>
 		</v-card>
 
@@ -73,8 +72,6 @@
 				but they can be anything like subtitles, podcast transcripts or news articles.<br><br>
 				
 				You can see how many <span class="new">new words</span> and <span class="highlighted">highlighted words</span> each <b>book</b> and <b>chapter</b> contains and estimate how difficult a text will be for your level.<br><br>
-				
-				You can select a <b>chapter</b> and start reading, or you can review your highlighted words from a specific <b>book</b> or <b>chapter</b>.
 			</v-card-text>
 		</v-card>
 
@@ -82,19 +79,11 @@
 			<v-card-title>Importing text</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('images/NewChapter.jpg')">
-						<img width="100%" eager src="images/NewChapter.jpg"></img>
-					</v-carousel-item>
 					<v-carousel-item contain eager @click="openImage('images/Import.jpg')">
 						<img width="100%" eager src="images/Import.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
-
-				At this time, there are two ways you can import text into LinguaCafe. The first is creating a <b>chapter</b>, 
-				and simply copying the text into the textbox. <br><br>
-
-				The other method is by clicking the import button on the <b>Library</b> page, where you can import an .epub file. 
-				There will be more supported methods in the future, like importing movie subtitles or youtube captions.
+				LinguaCafe has a variety of supported import sources, and more are coming in future updates.
 			</v-card-text>
 		</v-card>
 
@@ -102,27 +91,21 @@
 			<v-card-title>Reading</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('images/TextReader.jpg')">
-						<img width="100%" eager src="images/TextReader.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReader1.jpg')">
+						<img width="100%" eager src="images/TextReader1.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/TextReaderVocabularyBox.jpg')">
-						<img width="100%" eager src="images/TextReaderVocabularyBox.jpg"></img>
-					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/TextReaderVocabularyBoxEdit.jpg')">
-						<img width="100%" eager src="images/TextReaderVocabularyBoxEdit.jpg"></img>
-					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/TextReaderSettings.jpg')">
-						<img width="100%" eager src="images/TextReaderSettings.jpg"></img>
+					<v-carousel-item contain eager @click="openImage('images/TextReader2.jpg')">
+						<img width="100%" eager src="images/TextReader2.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
+
 				When you first start reading, all your words will be yellow, which represents <span class="new">new words</span> that you haven't seen before. 
-				Select the words you don't know, and add a translation from the built-in vocabulary search, and set the <b>level</b> of the word to 7 to make it a 
-				<span class="highlighted">highlighted word</span>. From now on whenever you see this word again, it will be <span class="highlighted">highlighted</span> 
-				in any text you read. You will be able to review these words to memorize their meaning. Clicking on the <b>Finished reading</b> button will set
-				all the yellow words to known.<br><br>
-				You can also select multiple words, and save them as a <b>phrase</b>.<br><br>
+				Select the words you don't know, and add a translation from the built-in vocabulary search. From now on whenever you see this word again, it will be <span class="highlighted">highlighted</span> 
+				in any text you read. <br><br>
 				
-				On the settings page you can customize your text to look any way you like to read.
+				You will be able to review these words to memorize their meaning. Clicking on the <b>Finished reading</b> button will set
+				all the yellow words to known in the chapter.<br><br>
+				You can also select multiple words, and save them as a <b>phrase</b>.
 			</v-card-text>
 		</v-card>
 
@@ -140,12 +123,8 @@
 				After reading your texts and creating <span class="highlighted">highlighted words and phrases</span>, you can review them on the <b>Review page</b>.
 				You can review words from a specific <b>book</b>, <b>chapter</b>, or you can review them all at once.<br><br>
 
-				On the review page you will be given words and phrases that you have highlighted and you have to guess their meaning.<br><br>
-
-				Each <span class="highlighted">highlighted word and phrase</span> will have a level representing how well you know that word. 
-				If you guess a card correctly, then the word or phrase will level up, and will appear less frequently over time. LinguaCafe uses
-				a spaced repetition system similar to the Leitner system, but you can export your highlighted cards to Anki or other SRS 
-				software if you want.
+				LinguaCafe uses a spaced repetition system similar to the Leitner system, but you can 
+				export your highlighted cards to Anki or other SRS software if you want.
 			</v-card-text>
 		</v-card>
 
@@ -193,14 +172,9 @@
 					<v-carousel-item contain eager @click="openImage('images/DictionaryList.jpg')">
 						<img width="100%" eager src="images/DictionaryList.jpg"></img>
 					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/DictionaryImport.jpg')">
-						<img width="100%" eager src="images/DictionaryImport.jpg"></img>
-					</v-carousel-item>
 				</v-carousel>
 				LinguaCafe comes with no dictionary files by default, but you can download and import them from different sources. 
-				JMDict is also supported, which is a popular japanese dictionary with detailed information. You can find more 
-				information about it and some other dictionary sources on LinguaCafe's github page. 
-				
+				There is a list of supported dictionaries on the github page.
 				<br><br>
 				You can also use DeepL translator, which allows you to translate 500.000 characters/month for free with machine translation.
 			</v-card-text>
@@ -222,31 +196,6 @@
 		</v-card>
 
 		<v-card outlined class="rounded-lg my-16">
-			<v-card-title>Jellyfin</v-card-title>
-			<v-card-text>
-				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
-					<v-carousel-item contain eager @click="openImage('images/MediaPlayerList.jpg')">
-						<img width="100%" eager src="images/MediaPlayerList.jpg"></img>
-					</v-carousel-item>
-					<v-carousel-item contain eager @click="openImage('images/MediaPlayerReader.jpg')">
-						<img width="100%" eager src="images/MediaPlayerReader.jpg"></img>
-					</v-carousel-item>
-				</v-carousel>
-				This is a very niche feature, but if it's set up properly, it allows the user to sit down in front of their TV, 
-				select something to watch, and have the subtitles opened in LinguaCafe on their phone or tablet.<br><br>
-				
-				In LinguaCafe you can import any external subtitles straight from a Jellyfin Media Server. 
-				Just start a video on any Jellyfin client, go to the <b>Media player page</b> in LinguaCafe, and select
-				the subtitle you want to read. <br><br>
-
-				There will be more ways to import your subtitles from other sources like mpv player, YouTube or straight 
-				from subtitle files, and also an option to save them in your library.<br><br>
-				
-				Currently only works for TV Shows, it will be fixed soon.
-			</v-card-text>
-		</v-card>
-
-		<v-card outlined class="rounded-lg my-16">
 			<v-card-title>Anki</v-card-title>
 			<v-card-text>
 				<v-carousel eager class="my-4 rounded-lg carousel" cycle height="auto">
@@ -257,8 +206,8 @@
 						<img width="100%" eager src="images/AnkiReview.jpg"></img>
 					</v-carousel-item>
 				</v-carousel>
-				LinguaCafe comes with built-in Anki support. It can send your <span class="highlighted">highlighted words</span> to Anki
-				automatically when you highlight them, or you can send them manually. You can find more information about setting it up 
+				LinguaCafe comes with built-in Anki support. It can send words when you highlight them to Anki
+				automatically, or you can send them manually. You can find more information about setting it up 
 				on the github page.
 			</v-card-text>
 		</v-card>
@@ -278,99 +227,8 @@
 					</v-carousel-item>
 				</v-carousel>
 
-				LinguaCafe comes with a light, dark and e-ink theme. The e-ink theme was created for Onyx Boox e-book readers, 
-				but they probably work okay with other e-ink devices as well.<br><br>
+				LinguaCafe comes with a light, dark and e-ink theme.<br><br>
 				Mobile view is also supported. You can use LinguaCafe from any device that has a browser and at least 340px wide screen.
-			</v-card-text>
-		</v-card>
-
-		<v-card outlined class="rounded-lg my-16">
-			<v-card-title>Feature roadmap</v-card-title>
-			<v-card-text>
-				LinguaCafe has a lot of features planned, but they have no timeline, or order. 
-				Please treat it more like a vision, of what LinguaCafe will be in its more developed form.
-				I will choose what to develop next based on community feedback and my own 
-				learning needs.	<br><br>
-
-				Some important features that are on the list:
-				<ul id="feature-list">
-					<li>
-						Making installation and update process easier wherever possible.
-					</li>
-					<li>
-						Supporting more users on one LinguaCafe server, to make it possible 
-						for the community to host one server for multiple people.
-					</li>
-					<li>
-						Option to import and export all data.
-					</li>
-					<li>
-						More language support.
-					</li>
-					<li>
-						Support for multiple font types for the reader (especially useful for Japanese).
-					</li>
-					<li>
-						Text reader sentence mode, where you can read the text one sentence at a time.
-					</li>
-					<li>
-						Text reader continuous reading mode, where you can scroll between your <b>chapters</b>, 
-						and you don't have to click on a link to go to the next <b>chapter</b>.
-					</li>
-					<li>
-						Bookmarks.
-					</li>
-					<li>
-						Manga reader.
-					</li>
-					<li>
-						Activity timeline, that shows your activities.
-					</li>
-					<li>
-						Support for treating word families together.
-					</li>
-					<li>
-						Jellyfin playback statistics. I want to add a goal, that tracks your listening time of 
-						audiobooks and podcasts on Jellyfin.
-					</li>
-					<li>
-						Simplified version of vocabulary box when hovering over words.
-					</li>
-					<li>
-						Option to make vocabulary box fixed on the right side of the screen, 
-						always visible and taking the full height of the screen.
-					</li>
-					<li>
-						Right to left, top to bottom reading mode for Japanese. There is already an option for it, 
-						but it does not work yet.
-					</li>
-					<li>
-						Customisable flashcards with different decks.
-					</li>
-					<li>
-						Saving images for words.
-					</li>
-					<li>
-						Support for importing audio for words and texts. Also text to speech.
-					</li>
-					<li>
-						Browser plugin that allows you to use any text inside the browser.
-					</li>
-					<li>
-						Importing text from all sources: youtube captions, subtitle files, manga files, mpv player and others.
-					</li>
-					<li>
-						A page where you can create sheets to practice Japanese writing 
-						either on touch devices, or by printing out the sheets on paper.
-					</li>
-				</ul><br>
-
-				As you can see i have a lot of plans for LinguaCafe, and it will take a long time to finish all of them. 
-				It is not something I write only for the purpose to make something useful, it is also my hobby, 
-				and i will keep working on it probably forever. <br><br>
-
-				I will also write a tool that shares my project management tool's tasks in real time, so you can
-				see all the planned features, known bugs and developement progress in real time.
 			</v-card-text>
 		</v-card>
 	</v-container>
