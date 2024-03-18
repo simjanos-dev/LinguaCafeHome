@@ -34,7 +34,7 @@
                 <!-- Chinese -->
                 <tr>
                     <td>
-                        <img src="/images/flags/chinese.png" width='25' />
+                        <img src="images/flags/chinese.png" width='25' />
                     </td>
                     <td>Chinese</td>
                     <td>&check;</td>
@@ -46,7 +46,7 @@
                 <!-- Czech -->
                 <tr>
                     <td>
-                        <img src="/images/flags/czech.png" width='25' />
+                        <img src="images/flags/czech.png" width='25' />
                     </td>
                     <td>Czech</td>
                     <td>&check;</td>
@@ -58,7 +58,7 @@
                 <!-- Dutch -->
                 <tr>
                     <td>
-                        <img src="/images/flags/dutch.png" width='25' />
+                        <img src="images/flags/dutch.png" width='25' />
                     </td>
                     <td>Dutch</td>
                     <td>&check;</td>
@@ -70,7 +70,7 @@
                 <!-- Finnish -->
                 <tr>
                     <td>
-                        <img src="/images/flags/finnish.png" width='25' />
+                        <img src="images/flags/finnish.png" width='25' />
                     </td>
                     <td>Finnish</td>
                     <td>&check;</td>
@@ -82,7 +82,7 @@
                 <!-- French -->
                 <tr>
                     <td>
-                        <img src="/images/flags/french.png" width='25' />
+                        <img src="images/flags/french.png" width='25' />
                     </td>
                     <td>French</td>
                     <td>&check;</td>
@@ -94,7 +94,7 @@
                 <!-- German -->
                 <tr>
                     <td>
-                        <img src="/images/flags/german.png" width='25' />
+                        <img src="images/flags/german.png" width='25' />
                     </td>
                     <td>German</td>
                     <td>&check;</td>
@@ -106,7 +106,7 @@
                 <!-- Italian -->
                 <tr>
                     <td>
-                        <img src="/images/flags/italian.png" width='25' />
+                        <img src="images/flags/italian.png" width='25' />
                     </td>
                     <td>Italian</td>
                     <td>&check;</td>
@@ -118,7 +118,7 @@
                 <!-- Japanese -->
                 <tr>
                     <td>
-                        <img src="/images/flags/japanese.png" width='25' />
+                        <img src="images/flags/japanese.png" width='25' />
                     </td>
                     <td>Japanese</td>
                     <td>&check;</td>
@@ -130,7 +130,7 @@
                 <!-- Korean -->
                 <tr>
                     <td>
-                        <img src="/images/flags/korean.png" width='25' />
+                        <img src="images/flags/korean.png" width='25' />
                     </td>
                     <td>Korean</td>
                     <td>&check;</td>
@@ -141,7 +141,7 @@
                 <!-- Norwegian -->
                 <tr>
                     <td>
-                        <img src="/images/flags/norwegian.png" width='25' />
+                        <img src="images/flags/norwegian.png" width='25' />
                     </td>
                     <td>Norwegian</td>
                     <td>&check;</td>
@@ -152,7 +152,7 @@
                 <!-- Russian -->
                 <tr>
                     <td>
-                        <img src="/images/flags/russian.png" width='25' />
+                        <img src="images/flags/russian.png" width='25' />
                     </td>
                     <td>Russian</td>
                     <td>&check;</td>
@@ -163,7 +163,7 @@
                 <!-- Spanish -->
                 <tr>
                     <td>
-                        <img src="/images/flags/spanish.png" width='25' />
+                        <img src="images/flags/spanish.png" width='25' />
                     </td>
                     <td>Spanish</td>
                     <td>&check;</td>
@@ -174,7 +174,7 @@
                 <!-- Swedish -->
                 <tr>
                     <td>
-                        <img src="/images/flags/swedish.png" width='25' />
+                        <img src="images/flags/swedish.png" width='25' />
                     </td>
                     <td>Swedish</td>
                     <td>&check;</td>
@@ -185,7 +185,7 @@
                 <!-- Ukrainian -->
                 <tr>
                     <td>
-                        <img src="/images/flags/ukrainian.png" width='25' />
+                        <img src="images/flags/ukrainian.png" width='25' />
                     </td>
                     <td>Ukrainian</td>
                     <td>&check;</td>
@@ -196,7 +196,7 @@
                 <!-- Welsh -->
                 <tr>
                     <td>
-                        <img src="/images/flags/welsh.png" width='25' />
+                        <img src="images/flags/welsh.png" width='25' />
                     </td>
                     <td>Welsh</td>
                     <td></td>
