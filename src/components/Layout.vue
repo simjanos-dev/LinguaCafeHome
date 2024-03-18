@@ -17,10 +17,6 @@
 </template>
 
 <style>
-	#user-manual-content {
-		height: 100% !important;
-	}
-
 	div#user-manual .subheader {
 		display: block;
 		width: 100%;
