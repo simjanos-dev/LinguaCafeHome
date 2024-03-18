@@ -16,6 +16,10 @@ export default new Vuetify({
                 textDark: '#141110',
                 newWord: '#ffdd4b',
                 highlightedWord: '#61df6b',
+                error: '#ff4f55',
+        info: '#057CBC',
+        success: '#3dcf59',
+        warning: '#ffb448',
             },
         },
     }
