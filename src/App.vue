@@ -8,12 +8,10 @@
 			flat
 		>
 			<v-btn rounded text plain @click="page = 'home'">Overview</v-btn>
-			<v-btn rounded text plain @click="page = 'user-manual'">User manual (v0.8 pre-release)</v-btn>
 		</v-app-bar>
 
 		<v-main>
 			<Home v-if="page === 'home'"/>
-			<UserManual v-if="page === 'user-manual'"/>
 		</v-main>
 	</v-app>
 </template>
@@ -64,14 +62,12 @@
 
 <script>
 import Home from './components/Home';
-import UserManual from './components/UserManual/UserManual';
 
 export default {
 	name: 'App',
 
 	components: {
-		Home,
-		UserManual
+		Home
 	},
 
 	data: () => ({
