@@ -130,5 +130,21 @@
         "title": "Miku Real Japanese",
         "description": "Miku makes videos for Japanese learners. She has a lot of interview videos with subtitles, they have a separate playlist.",
         "hasText": true
+    },
+    {
+        "type": "false",
+        "languages": ["japanese"],
+        "url": "https://www.youtube.com/@GameGengo",
+        "title": "Game gengo",
+        "description": "Game gengo makes Japanese grammar videos based on sentences found in video games.",
+        "hasText": false
+    },
+    {
+        "type": "video",
+        "languages": ["norwegian"],
+        "url": "https://www.youtube.com/@bildeglimt",
+        "title": "Ett Lite Bildeglimt",
+        "description": "Norwegian listening practice, and comprehensible input videos.",
+        "hasText": false
     }
 ]
