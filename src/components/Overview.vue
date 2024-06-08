@@ -41,7 +41,7 @@
 			<template #title>Supported languages</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/Languages.jpg' },
+                    { src: '/images/Languages.jpg' },
                 ]"/>
 
 				LinguaCafe currently supports 15 languages. You can see a more detailed list of 
@@ -55,9 +55,9 @@
             <template #title>Library</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/LibraryCover.jpg' },
-                    { src: 'images/LibraryDetailed.jpg' },
-                    { src: 'images/LibraryChapters.jpg' },
+                    { src: '/images/LibraryCover.jpg' },
+                    { src: '/images/LibraryDetailed.jpg' },
+                    { src: '/images/LibraryChapters.jpg' },
                 ]"/>
 				
 				You can manage all imported texts on the <b>Library</b> page.<br><br>
@@ -73,7 +73,7 @@
 			<template #title>Importing text</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/Import.jpg' },
+                    { src: '/images/Import.jpg' },
                 ]" />
 				LinguaCafe has a variety of supported import sources, and more are coming in future updates.
             </template>
@@ -83,8 +83,8 @@
 			<template #title>Reading</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/TextReader1.jpg' },
-                    { src: 'images/TextReader2.jpg' },
+                    { src: '/images/TextReader1.jpg' },
+                    { src: '/images/TextReader2.jpg' },
                 ]" />
 
 				When you first start reading, all your words will be yellow, which represents <span class="new">new words</span> that you haven't seen before. 
@@ -101,8 +101,8 @@
 			<template #title>Review</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/ReviewFrontCard.jpg' },
-                    { src: 'images/ReviewBackCard.jpg' },
+                    { src: '/images/ReviewFrontCard.jpg' },
+                    { src: '/images/ReviewBackCard.jpg' },
                 ]" />
 				After reading your texts and creating <span class="highlighted">highlighted words and phrases</span>, you can review them on the <b>Review page</b>.
 				You can review words from a specific <b>book</b>, <b>chapter</b>, or you can review them all at once.<br><br>
@@ -116,8 +116,8 @@
 			<template #title>Goal tracking</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/GoalTracking.jpg' },
-                    { src: 'images/Statistics.jpg' },
+                    { src: '/images/GoalTracking.jpg' },
+                    { src: '/images/Statistics.jpg' },
                 ]" />
 
 				LinguaCafe tracks how many words you read, highlight and review daily. You can view and edit your 
@@ -132,9 +132,9 @@
 			<template #content>
 				You can search, edit and export your words on the <b>Vocabulary</b> page.
                 <CustomGalleria :images="[
-                    { src: 'images/VocabularySearch.jpg' },
-                    { src: 'images/VocabularyEdit.jpg' },
-                    { src: 'images/VocabularyExport.jpg' },
+                    { src: '/images/VocabularySearch.jpg' },
+                    { src: '/images/VocabularyEdit.jpg' },
+                    { src: '/images/VocabularyExport.jpg' },
                 ]" />
 			</template>
 		</Card>
@@ -143,7 +143,7 @@
 			<template #title>Dictionaries</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/DictionaryList.jpg' },
+                    { src: '/images/DictionaryList.jpg' },
                 ]" />
 				LinguaCafe comes with no dictionary files by default, but you can download and import them from different sources. 
 				There is a list of supported dictionaries on the github page.
@@ -156,8 +156,8 @@
 			<template #title>Kanji and radicals</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/KanjiList.jpg' },
-                    { src: 'images/KanjiDetails.jpg' },
+                    { src: '/images/KanjiList.jpg' },
+                    { src: '/images/KanjiDetails.jpg' },
                 ]" />
 				You can view information about the kanji you know.
 			</template>
@@ -167,8 +167,8 @@
 			<template #title>Anki</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/AnkiHome.jpg' },
-                    { src: 'images/AnkiReview.jpg' },
+                    { src: '/images/AnkiHome.jpg' },
+                    { src: '/images/AnkiReview.jpg' },
                 ]" />
 
 				LinguaCafe comes with built-in Anki support. It can send words when you highlight them to Anki
@@ -181,9 +181,9 @@
 			<template #title>Theming and customization</template>
 			<template #content>
                 <CustomGalleria :images="[
-                    { src: 'images/ThemeDark.jpg' },
-                    { src: 'images/ThemeLight.jpg' },
-                    { src: 'images/ThemeEink.jpg' },
+                    { src: '/images/ThemeDark.jpg' },
+                    { src: '/images/ThemeLight.jpg' },
+                    { src: '/images/ThemeEink.jpg' },
                 ]" />
 
 				LinguaCafe comes with a light, dark and e-ink theme.<br><br>

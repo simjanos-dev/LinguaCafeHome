@@ -11,11 +11,11 @@ export default {
             'p-2',
 
             // Shape
-            'rounded-md',
+            'rounded-none',
 
             // Color
-            'bg-surface-0 dark:bg-surface-900',
-            'border border-surface-200 dark:border-surface-700'
+            'bg-primary dark:bg-surface-900',
+            'border-none'
         ]
     },
     menu: ({ props }) => ({
@@ -45,7 +45,7 @@ export default {
             'border-0',
 
             // Color
-            'bg-surface-0 dark:bg-surface-900 sm:bg-transparent',
+            'bg-primary dark:bg-surface-900 sm:bg-transparent',
 
             // Misc
             'outline-none'
@@ -60,17 +60,17 @@ export default {
             'rounded-[4px]',
 
             // Colors
-            'text-surface-700 dark:text-white/80',
+            'text-surface-100 dark:text-white/80',
             {
-                'text-surface-500 dark:text-white/70': !context.focused && !context.active,
-                'text-surface-500 dark:text-white/70 bg-surface-200': context.focused && !context.active,
+                'text-primary-500': !context.focused && !context.active,
+                'text-primary-500 bg-primary-500': context.focused && !context.active,
                 'text-primary-highlight-inverse bg-primary-highlight': (context.focused && context.active) || context.active || (!context.focused && context.active)
             },
 
             // States
             {
-                'hover:bg-surface-100 dark:hover:bg-[rgba(255,255,255,0.03)]': !context.active,
-                'hover:bg-primary-highlight-hover text-primary-highlight-inverse': context.active
+                'hover:bg-primary-500': !context.active,
+                'hover:bg-primary-500-hover text-primary-highlight-inverse': context.active
             },
 
             // Transitions

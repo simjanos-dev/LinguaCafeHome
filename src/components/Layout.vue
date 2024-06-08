@@ -1,6 +1,6 @@
 <template>
     <div class="bg-surface-100">
-        <Menubar :model="menuItems" :pt="{ root: 'bg-primary-600 rounded-none m-0 border-0' }"/>
+        <Menubar :model="menuItems"/>
 
         <div class="">
             <Overview v-if="selectedMenu == 'overview'" />
@@ -13,15 +13,18 @@
 export default {
     data() {
         return {
-            selectedMenu: 'resources',
+            selectedMenu: 'overview',
             menuItems: [
-                { label: 'Overview', command: this.showOverview },
+                { label: 'LinguaCafe', command: this.showOverview },
                 { label: 'Resources', command: this.showResources }
             ]
         };
     },
     mounted() {
-
+        let path = window.location.href.split('?page=');
+        if (path.length == 2) {
+            this.selectedMenu = path[1];
+        }
     },
     methods: {
         showOverview() {
