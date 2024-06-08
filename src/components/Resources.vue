@@ -41,7 +41,7 @@
 						<Image
 							v-for="(language, languageIndex) in resource.languages"
 							:key="languageIndex"
-							:src="'/images/flags/' + language + '.png'"
+							:src="'images/flags/' + language + '.png'"
 							imageClass="w-[35px] h-[24px] mr-1 rounded border border-surface-300"
 						/>
 					</div>
