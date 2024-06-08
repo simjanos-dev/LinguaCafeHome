@@ -8,77 +8,127 @@
         ],
         "url": "https://lingua.com",
         "title": "Lingua",
-        "description": "Mostly beginner reading material with audio. A lot of them are free, but also has a paid version."
+        "description": "Mostly beginner reading material with audio. A lot of them are free, but also has a paid version.",
+        "hasText": true
     },
     {
         "type": "reading",
         "languages": ["french"],
         "url": "https://frenchinlevels.com",
         "title": "World News for Students of French",
-        "description": "News in French for French learners."
+        "description": "News in French for French learners.",
+        "hasText": true
     },
     {
         "type": "reading",
         "languages": ["norwegian"],
         "url": "https://www.norgeshistorie.no",
         "title": "Norgeshistorie",
-        "description": "A lot of free texts about Norway's history. I used it myself, I think it is a great resource."
+        "description": "A lot of free texts about Norway's history. I used it myself, I think it is a great resource.",
+        "hasText": true
     },
     {
-        "type": "reading",
+        "type": "audio",
         "languages": ["norwegian"],
         "url": "https://laernorsknaa.com",
         "title": "Lær Norsk Nå",
-        "description": "A podcast with over 100 episodes, with transcripts."
+        "description": "A podcast with over 100 episodes, with transcripts.",
+        "hasText": true
     },
     {
-        "type": "reading",
+        "type": "video",
         "languages": ["japanese"],
         "url": "https://www.youtube.com/@cijapanese",
         "title": "Comprehensible Japanese",
-        "description": "Comprehensible Japanese videos with subtitles on all levels. Some of them are free, majority are paid. I use this myself, it is a great resource to learn Japanese. Highly recommended!"
+        "description": "Comprehensible Japanese videos with subtitles on all levels. Some of them are free, majority are paid. I use this myself, it is a great resource to learn Japanese. Highly recommended!",
+        "hasText": true
     },
     {
-        "type": "reading",
+        "type": "audio",
         "languages": ["japanese"],
         "url": "https://www.youtube.com/@LearnJapanesewithNoriko",
         "title": "Learn Japanese with Noriko",
-        "description": "A great podcast with transcription available. I used it myself, it is a great resource, especially for beginner Japanese learners."
+        "description": "A great podcast with transcripts available. I used it myself, it is a great resource, especially for beginner Japanese learners.",
+        "hasText": true
     },
     {
         "type": "reading",
         "languages": ["japanese"],
         "url": "https://www3.nhk.or.jp/news/easy",
         "title": "NHK News Easy",
-        "description": "A Japanese news site with simplified text. I used it myself, I highly recommend!"
+        "description": "A Japanese news site with simplified text. I used it myself, I highly recommend!",
+        "hasText": true
     },
     {
         "type": "video",
         "languages": ["french"],
         "url": "https://www.youtube.com/@FrenchComprehensibleInput",
         "title": "French Comprehensible Input",
-        "description": "French comprehensible input videos. It has no transcriptions. "
+        "description": "French comprehensible input videos. It has no transcripts. ",
+        "hasText": false
     },
     {
         "type": "tool",
         "languages": ["arabic", "chinese", "dutch", "english", "german", "french", "greek", "hebrew", "italian", "japanese", "korean", "polish", "portuguese", "russian", "spanish", "swedish", "thai", "turkish", "ukrainian", "vietnamese"],
         "url": "https://youglish.com",
         "title": "YouGlish",
-        "description": "Use YouTube to improve your pronunciation. With more than 100M tracks, YouGlish gives you fast, unbiased answers about how your selected languages is spoken by real people and in context."
+        "description": "Use YouTube to improve your pronunciation. With more than 100M tracks, YouGlish gives you fast, unbiased answers about how your selected languages is spoken by real people and in context.",
+        "hasText": false
     },
     {
         "type": "tool",
         "languages": [],
         "url": "https://github.com/simjanos-dev/linguacafe",
         "title": "LinguaCafe",
-        "description": "It is a self-hosted software that helps language learners read foreign languages."
+        "description": "It is a self-hosted software that helps language learners read foreign languages.",
+        "hasText": false
     },
     {
         "type": "tool",
         "languages": [],
         "url": "https://github.com/LuteOrg/lute-v3",
         "title": "Lute",
-        "description": "LUTE = Learning Using Texts: learn languages through reading."
+        "description": "LUTE = Learning Using Texts: learn languages through reading.",
+        "hasText": false
+    },
+    {
+        "type": "tool",
+        "languages": ["japanese", "korean", "spanish", "german"],
+        "url": "https://learnnatively.com",
+        "title": "Natively",
+        "description": "The Natively community grades each book, movie or TV show to an approximate language proficiency level. This helps you find content that's appropriate for you.",
+        "hasText": false
+    },
+    {
+        "type": "tool",
+        "languages": [],
+        "url": "https://apps.ankiweb.net",
+        "title": "Anki",
+        "description": "Anki is a flashcard memory program which makes remembering things easy.",
+        "hasText": false
+    },
+    {
+        "type": "tool",
+        "languages": ["japanese"],
+        "url": "https://github.com/themoeway/yomitan",
+        "title": "Yomitan",
+        "description": "Japanese pop-up dictionary browser extension.",
+        "hasText": false
+    },
+    {
+        "type": "audio",
+        "languages": ["japanese"],
+        "url": "https://sakuratips.com",
+        "title": "Sakura tips",
+        "description": "A slow podcast for beginner Japanese learners with transcripts available.",
+        "hasText": true
+    },
+    {
+        "type": "video",
+        "languages": ["japanese"],
+        "url": "https://www.youtube.com/@mikurealjapanese",
+        "title": "Miku Real Japanese",
+        "description": "Miku makes videos for Japanese learners. She has a lot of interview videos with subtitles, they have a separate playlist.",
+        "hasText": true
     }
-    
 ]
