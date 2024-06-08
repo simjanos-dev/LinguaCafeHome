@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
             <template #title>What is LinguaCafe?</template>
             <template #content>
 				LinguaCafe is a free, web-based and self-hosted platform that helps language learners read in foreign languages. 
@@ -24,7 +24,7 @@
             </template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
 			<template #title>
                 <div class="flex items-center">
                     <AlertIcon fillColor="red" class="mr-2" /> Active development disclaimer
@@ -37,7 +37,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Supported languages</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -51,7 +51,7 @@
 			</template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
             <template #title>Library</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -69,7 +69,7 @@
 			</template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
 			<template #title>Importing text</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -79,7 +79,7 @@
             </template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
 			<template #title>Reading</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -97,7 +97,7 @@
 			</template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
 			<template #title>Review</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -112,7 +112,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Goal tracking</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -127,7 +127,7 @@
 			</template>
 		</Card>
 
-        <Card class="max-w-5xl mx-auto my-4">
+        <Card class="max-w-5xl mx-auto my-12">
 			<template #title>Vocabulary</template>
 			<template #content>
 				You can search, edit and export your words on the <b>Vocabulary</b> page.
@@ -139,7 +139,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Dictionaries</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -152,7 +152,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Kanji and radicals</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -163,7 +163,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Anki</template>
 			<template #content>
                 <CustomGalleria :images="[
@@ -177,7 +177,7 @@
 			</template>
 		</Card>
 
-		<Card class="max-w-5xl mx-auto my-4">
+		<Card class="max-w-5xl mx-auto my-12">
 			<template #title>Theming and customization</template>
 			<template #content>
                 <CustomGalleria :images="[

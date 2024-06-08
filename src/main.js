@@ -14,14 +14,17 @@ app.use(PrimeVue, {
 // icons
 import GithubIcon from 'vue-material-design-icons/Github.vue';
 import AlertIcon from 'vue-material-design-icons/Alert.vue';
-import BookOpenVariant from 'vue-material-design-icons/BookOpenVariant.vue';
-import Tools from 'vue-material-design-icons/Tools.vue';
-import Movie from 'vue-material-design-icons/Movie.vue';
+import BookOpenVariantIcon from 'vue-material-design-icons/BookOpenVariant.vue';
+import ToolsIcon from 'vue-material-design-icons/Tools.vue';
+import MovieIcon from 'vue-material-design-icons/Movie.vue';
+import HeadphonesIcon from 'vue-material-design-icons/Headphones.vue';
 app.component('GithubIcon', GithubIcon);
 app.component('AlertIcon', AlertIcon);
-app.component('BookOpenVariantIcon', BookOpenVariant);
-app.component('ToolsIcon', Tools);
-app.component('MovieIcon', Movie);
+app.component('BookOpenVariantIcon', BookOpenVariantIcon);
+app.component('ToolsIcon', ToolsIcon);
+app.component('MovieIcon', MovieIcon);
+app.component('HeadphonesIcon', HeadphonesIcon);
+
 
 // components
 import Overview from './components/Overview.vue';
@@ -37,6 +40,7 @@ import Card from 'primevue/card';
 import Galleria from 'primevue/galleria';
 import Image from 'primevue/image';
 import InputText from 'primevue/inputtext';
+import Checkbox from 'primevue/checkbox';
 
 
 app.component('Menubar', Menubar);
@@ -44,6 +48,7 @@ app.component('Card', Card);
 app.component('Galleria', Galleria);
 app.component('Image', Image);
 app.component('InputText', InputText);
+app.component('Checkbox', Checkbox);
 
 
 app.mount('#app');

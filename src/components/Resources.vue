@@ -1,14 +1,44 @@
 <template>
     <div class="flex flex-col items-center">
+		<Card class="my-1 w-[90%] max-w-5xl my-6">
+			<template #title>Language learning resource collection</template>
+			<template #content>
+				<div class="mb-2">
+					This is a resource collection of free texts, audios, videos and tools that you can use to learn languages with <b>comprehensible input</b>. 
+					Feel free to propose additions to it either on GitHub, or on the LinguaCafe discord channel.
+				</div>
+				<div>
+					This collection is mainly for reading materials, but people have proposed to add more material to it, so I added an optional filter where everything 
+					related to comprehensible input learning can be added.
+				</div>
+
+
+			</template>
+		</Card>
+
 		<!-- filters -->
-		<Card class="my-1 w-[90%] max-w-[1000px] my-6">
-			<template #title>Filter</template>
+		<Card class="my-1 w-[90%] max-w-5xl my-6">
+			<template #title>
+				<div class="flex justify-between">
+					<span>Filter</span>
+					<div class="flex items-center font-normal text-base">
+						<label for="readingOnlyTextbox">Reading materials only</label>
+						<Checkbox 
+							v-model="readingMaterialsOnly"
+							:binary="true"
+							inputId="readingOnlyTextbox"
+							class="ml-2"
+							@change="filterChanged"
+						/>
+					</div>
+				</div>
+			</template>
 			<template #content>
 				<InputText 
 					v-model="filter"
 					type="text" 
-					class="w-full" 
-					placeholder="Search for languages, title or description..." 
+					class="w-full mt-4" 
+					placeholder="Search for languages, titles or descriptions..." 
 					@keyup="filterChanged"
 					@change="filterChanged"
 				></InputText>
@@ -20,7 +50,7 @@
         <Card
 			v-for="(resource, resourceIndex) in filteredResources"
 			:key="resourceIndex"
-			class="my-1 w-[90%] max-w-[1000px] my-6"
+			class="my-1 w-[90%] max-w-5xl my-6"
 		>
 			<template #title>
 				<div class="flex flex-wrap justify-between">
@@ -31,6 +61,7 @@
 						<BookOpenVariantIcon class="mr-2 hidden md:block" v-if="resource.type == 'reading'" />
 						<ToolsIcon class="mr-2 hidden md:block" v-if="resource.type == 'tool'" />
 						<MovieIcon class="mr-2 hidden md:block" v-if="resource.type == 'video'" />
+						<HeadphonesIcon class="mr-2 hidden md:block" v-if="resource.type == 'audio'" />
 
 						<!-- Title text-->
 						{{ resource.title }}
@@ -51,7 +82,7 @@
 				<div class="block">
 					{{ resource.description }}
 				</div>
-				<a class="text-primary mt-8 break-all" :href="resource.url" target="_blank">{{ resource.url }}</a>
+				<a class="text-primary mt-4 break-all inline-block" :href="resource.url" target="_blank">{{ resource.url }}</a>
 			</template>
 		</Card>
     </div>
@@ -65,13 +96,15 @@ export default {
             resources: null,
 			filteredResources: null,
 			filter: '',
+			readingMaterialsOnly: true,
         };
     },
 	mounted() {
-		console.log('ok');
 		axios.get('resources.json').then((response) => {
 			this.resources = response.data;
 			this.filteredResources = response.data;
+
+			this.filterChanged();
 		});
     },
     methods: {
@@ -79,15 +112,23 @@ export default {
 			let lowercaseFilter = this.filter.toLowerCase();
 			this.filteredResources = [];
 			this.resources.forEach((element) => {
+				// reading materials only filter
+				if (this.readingMaterialsOnly && !element.hasText) {
+					return;
+				}
+
+				// text filter
 				let languages = element.languages.join(' ').toLowerCase();
 				if (
-					languages.includes(lowercaseFilter) || 
-					element.title.toLowerCase().includes(lowercaseFilter) || 
-					element.description.toLowerCase().includes(lowercaseFilter) ||
-					element.url.toLowerCase().includes(lowercaseFilter)
+					!languages.includes(lowercaseFilter) && 
+					!element.title.toLowerCase().includes(lowercaseFilter) && 
+					!element.description.toLowerCase().includes(lowercaseFilter) &&
+					!element.url.toLowerCase().includes(lowercaseFilter)
 				) {
-					this.filteredResources.push(element);
+					return;
 				}
+
+				this.filteredResources.push(element);
 			});
 
 		}
