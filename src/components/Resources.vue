@@ -69,7 +69,7 @@ export default {
     },
 	mounted() {
 		console.log('ok');
-		axios.get('/resources.json').then((response) => {
+		axios.get('resources.json').then((response) => {
 			this.resources = response.data;
 			this.filteredResources = response.data;
 		});
