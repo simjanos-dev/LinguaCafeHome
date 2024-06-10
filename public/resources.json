@@ -146,5 +146,13 @@
         "title": "Ett Lite Bildeglimt",
         "description": "Norwegian listening practice, and comprehensible input videos.",
         "hasText": false
+    },
+    {
+        "type": "tool",
+        "languages": [],
+        "url": "https://github.com/ocrmypdf/OCRmyPDF",
+        "title": "OCRmyPDF",
+        "description": "OCRmyPDF adds a text layer to scanned PDF files, allowing them to be searched and copied.",
+        "hasText": false
     }
 ]
