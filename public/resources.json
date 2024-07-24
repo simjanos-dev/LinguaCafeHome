@@ -132,7 +132,7 @@
         "hasText": true
     },
     {
-        "type": "false",
+        "type": "video",
         "languages": ["japanese"],
         "url": "https://www.youtube.com/@GameGengo",
         "title": "Game gengo",
@@ -153,6 +153,14 @@
         "url": "https://github.com/ocrmypdf/OCRmyPDF",
         "title": "OCRmyPDF",
         "description": "OCRmyPDF adds a text layer to scanned PDF files, allowing them to be searched and copied.",
+        "hasText": false
+    },
+    {
+        "type": "tool",
+        "languages": ["japanese"],
+        "url": "https://www.freejapanesefont.com",
+        "title": "Free japanese fonts",
+        "description": "280 Japanese unicode fonts free to download.",
         "hasText": false
     }
 ]
