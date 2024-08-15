@@ -162,5 +162,21 @@
         "title": "Free japanese fonts",
         "description": "280 Japanese unicode fonts free to download.",
         "hasText": false
+    },
+    {
+        "type": "reading",
+        "languages": ["german"],
+        "url": "https://www.nachrichtenleicht.de",
+        "title": "Nachrichtenleicht",
+        "description": "A news site operated by Deutschlandfunk that publishes weekly news stories written in simple language for language learners on various topics including current events, culture, sports, and others.",
+        "hasText": true
+    },
+    {
+        "type": "audio",
+        "languages": ["german"],
+        "url": "https://learngerman.dw.com/de/deutsch-lernen/s-9095",
+        "title": "DW Deutsch Lernen",
+        "description": "Resources for german learners provided by Deutsche Welle (DW) including longer form videos, vocabulary, and placement tests. In addition to that, nearly every day, new short form audio broadcasts with manuscripts are posted. Content varies from A1-C2 levels.",
+        "hasText": true
     }
 ]
