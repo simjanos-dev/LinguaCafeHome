@@ -209,6 +209,6 @@
         "url": "https://www.easygerman.org/podcast",
         "title": "Easy German Podcast",
         "description": "A biweekly podcast discussing everyday topics. Episodes regularly include a few segments including \"Ausdrücke der Woche\" (expressions of the week), \"Empfehlungen der Woche\" (recommendations of the week), and \"Lieder der Woche\" (songs of the week). Transcripts are also available, but only to subscribers.",
-        "hasText": true
+        "hasText": false
     }
 ]
