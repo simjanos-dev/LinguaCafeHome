@@ -178,5 +178,37 @@
         "title": "DW Deutsch Lernen",
         "description": "Resources for german learners provided by Deutsche Welle (DW) including longer form videos, vocabulary, and placement tests. In addition to that, nearly every day, new short form audio broadcasts with manuscripts are posted. Content varies from A1-C2 levels.",
         "hasText": true
+    },
+    {
+        "type": "audio",
+        "languages": ["german"],
+        "url": "https://slowgerman.com",
+        "title": "Slow German",
+        "description": "A podcast by Annik Rubens with clearly spoken language and transcripts. The topics tend to focus on everyday things, life in Germany, and current events. Manuscripts are available in the description of each episode.",
+        "hasText": true
+    },
+    {
+        "type": "audio",
+        "languages": ["german"],
+        "url": "https://www.swr.de/swrkultur/programm/swr2-wissen-podcast-102.html",
+        "title": "SWR2 Wissen",
+        "description": "A podcast from Südwestrundfunk (SWR). Topics include current events, history, and general education. Manuscripts for each podcast are available directly in the description of each episode or via link to download as a PDF.",
+        "hasText": true
+    },
+    {
+        "type": "audio",
+        "languages": ["german"],
+        "url": "https://moinmarc.com",
+        "title": "Moin marc",
+        "description": "A podcast for learning German via postcard. The host, Marc, reads aloud postcards sent to him. First slowly, and afterwards at a more normal speaking speed. Transcripts are also provided for each episode with the original German and an English translation to follow along.",
+        "hasText": true
+    },
+    {
+        "type": "audio",
+        "languages": ["german"],
+        "url": "https://www.easygerman.org/podcast",
+        "title": "Easy German Podcast",
+        "description": "A biweekly podcast discussing everyday topics. Episodes regularly include a few segments including \"Ausdrücke der Woche\" (expressions of the week), \"Empfehlungen der Woche\" (recommendations of the week), and \"Lieder der Woche\" (songs of the week). Transcripts are also available, but only to subscribers.",
+        "hasText": true
     }
 ]
