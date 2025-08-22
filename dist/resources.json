@@ -198,7 +198,7 @@
     {
         "type": "audio",
         "languages": ["german"],
-        "url": "https://moinmarc.com",
+        "url": "https://web.archive.org/web/20240418231704/https://moinmarc.com/episodes/",
         "title": "Moin marc",
         "description": "A podcast for learning German via postcard. The host, Marc, reads aloud postcards sent to him. First slowly, and afterwards at a more normal speaking speed. Transcripts are also provided for each episode with the original German and an English translation to follow along.",
         "hasText": true
